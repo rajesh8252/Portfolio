@@ -1,5 +1,5 @@
 import React from 'react'
-import logo1 from "../assets/ecommerce-websites.jpg"
+import logo1 from "../assets/logoo1.png"
 import logo2 from "../assets/food-ecommerce.jpg"
 import logo3 from "../assets/website-blog.jpg"
 const Projects = () => {
@@ -8,8 +8,8 @@ const Projects = () => {
         [
             {
                 image:logo1,
-                description:"A E-commerce Website. Built with MERN Stack.",
-                link:"https://google.com"
+                description:"E-learning platform.Built with Vite + React.",
+                link:"https://rajesh8252.github.io/the-rj-coding/"
             },
             {
                 image:logo2,
