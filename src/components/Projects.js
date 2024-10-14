@@ -1,6 +1,6 @@
 import React from 'react'
 import logo1 from "../assets/logoo1.png"
-import logo2 from "../assets/food-ecommerce.jpg"
+import logo2 from "../assets/rajesh8252-github-io-E-Commerce-2024-10-14-16_57_40.png"
 import logo3 from "../assets/website-blog.jpg"
 const Projects = () => {
     const config={
@@ -14,7 +14,7 @@ const Projects = () => {
             {
                 image:logo2,
                 description:"Food E-commerce website like Swiggy, Built with Angular and .NET",
-                link:"https://google.com"
+                link:"https://rajesh8252.github.io/E-Commerce/"
             },
             {
                 image:logo3,
@@ -40,7 +40,7 @@ const Projects = () => {
             {config.projects.map(project=>( 
             
                 <div className='relative'>
-                <img src={project.image} className='h-[250px] w-[500px]'></img>
+                <img src={project.image} className='h-[250px] w-[500px] object-cover'></img>
                 <div className='project-desc'>
                     <p className='text-center px-5 py-5'>{project.description}</p>
                     <div className='flex justify-center'>

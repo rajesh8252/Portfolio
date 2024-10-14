@@ -14,7 +14,7 @@ const Resume = () => {
         <div className='md:w-1/2 flex justify-center pl-3 pt-3'>
             <div className='flex flex-col justify-center'>
                  <h1 className='text-4xl text-white border-b-4 border-primary mb-5 w-[135px] font-bold'>Resume</h1>
-                 <a href="Rajesh__CV (1).pdf" download='resume.pdf'className='btn'>Download</a>
+                 <a href="Rajesh__CV (1).pdf" download='resume.pdf'className='btn mt-2'>Download</a>
                
             </div>
            
